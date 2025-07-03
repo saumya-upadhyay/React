@@ -1,0 +1,119 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "Catch you later"],
+      "responses": ["Goodbye! Have a great day!", "Take care! Come back anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Appreciate it", "Much appreciated"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Order status",
+        "Track my order",
+        "Has my order been shipped?",
+        "When will my order arrive?"
+      ],
+      "responses": ["Please provide your order ID to check the status."]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want a refund",
+        "How do I get a refund?",
+        "I need my money back",
+        "Return and refund policy",
+        "Process my refund"
+      ],
+      "responses": ["Sure, can you provide your order number for the refund process?"]
+    },
+    {
+      "tag": "return_item",
+      "patterns": [
+        "I want to return my item",
+        "How can I return my order?",
+        "Return product",
+        "I need to send my order back",
+        "What is your return policy?"
+      ],
+      "responses": ["You can return items within 30 days. Please provide your order number to proceed."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Cancel my order",
+        "How can I cancel my order?",
+        "I want to cancel",
+        "Stop my order",
+        "Can I cancel my purchase?"
+      ],
+      "responses": ["Please share your order ID to cancel it. Note: You can only cancel before shipping."]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "My payment failed",
+        "Payment not going through",
+        "Problem with payment",
+        "I was charged twice",
+        "Payment declined"
+      ],
+      "responses": ["We're sorry about the issue. Please provide your email or transaction ID to help you."]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help",
+        "I have a question",
+        "Can I ask something?"
+      ],
+      "responses": ["Of course! I'm here to help. What's your question?"]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are the shipping charges?",
+        "Do you offer free delivery?",
+        "When will I get my order?",
+        "Shipping details",
+        "Delivery info"
+      ],
+      "responses": ["Standard shipping is free on orders over $50. Delivery usually takes 3–5 business days."]
+    },
+    {
+      "tag": "account_issue",
+      "patterns": [
+        "I can't log in",
+        "Forgot my password",
+        "Problem with my account",
+        "How do I reset my password?",
+        "My account is locked"
+      ],
+      "responses": ["Please use the 'Forgot Password' option on the login page or contact support for help."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Can you tell me more about this product?",
+        "Is this product available?",
+        "What are the specifications?",
+        "Does this come in other colors?",
+        "How does this product work?"
+      ],
+      "responses": ["Please let me know the product name or link so I can help with more details."]
+    }
+  ]
+}
